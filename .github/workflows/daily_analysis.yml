@@ -54,7 +54,7 @@ jobs:
       
       - name: 创建必要目录
         run: |
-          mkdir -p data logs reports
+          mkdir -p reports/logs
       
       - name: 执行股票分析
         env:
